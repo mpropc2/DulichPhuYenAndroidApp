@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_gioi_thieu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hongocman.doan2_android.GioiThieu_Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Du lịch Phú Yên ngắm cảnh đồng quê mộc mạc và bình dị"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_blue_light"
+                android:textStyle="normal|bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n\tNgoài phong cảnh thiên nhiên, vùng đất “hoa vàng, cỏ xanh” còn có một vẻ đẹp khác, đến từ sự mộc mạc, thuần khiết của những vùng quê yên bình."
+                android:textStyle="normal|bold" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/hinhphuyen1"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cánh đồng lúa ở thành phố Tuy Hòa buổi sớm mai."
+                android:textSize="12sp"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/hinhphuyen2"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cánh đồng lúa đang vào mùa gặt, xa xa là những ngôi nhà cao tầng hiện đại."
+                android:textSize="12sp"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/hinhphuyen3"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Người nông dân dậy từ sớm để ra đồng hái rau, làm cỏ."
+                android:textSize="12sp"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/hinhphuyen4"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tôi đi ngược ra phía khu vực ngoại thành của Tuy Hòa, đến gần hơn với những thôn quê bình yên nơi đây."
+                android:textSize="12sp"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/hinhphuyen5"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Xe rơm, xe thồ, xe máy, xe tải xen lẫn nhau. Cuộc sống diễn ra rất êm ả, không hề có sự vội vàng, gấp gáp."
+                android:textSize="12sp"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/hinhphuyen6"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Xe bò kéo là phương tiện vận chuyển chính, nhất là thời điểm thu hoạch lúa."
+                android:textSize="12sp"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/hinphuyen7"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Xe bò kéo lúa."
+                android:textSize="12sp"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/hinhphuyen8"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Người nông dân trên đường trở về nhà sau khi thăm đồng sớm."
+                android:textSize="12sp"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

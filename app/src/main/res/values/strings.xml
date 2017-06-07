@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Du Lịch Phú Yên</string>
+    <string name="gioi_thieu_menu">Giới Thiệu</string>
+    <string name="danh_lam">Danh Lam Thắng Cảnh</string>
+    <string name="di_tich">Di Tích Lịch Sử - Văn Hóa</string>
+    <string name="le_hoi">Lễ Hội</string>
+    <string name="am_thuc">Ẩm Thực</string>
+    <string name="lang_nghe">Làng Nghề</string>
+    <string name="nha_hang">Nhà Hàng</string>
+    <string name="khach_sang">Khách Sạn</string>
+    <string name="mua_sam">Mua sắm - Giải trí</string>
+    <string name="benh_vien">Bệnh viện - Ngân hàng</string>
+    <string name="hot_line">Hot Line</string>
+    <string name="about_us">About Us</string>
+    <string name="title_activity_danh_muc_chi_tiet">Chi tiết</string>
+    <string name="action_settings">Update Data</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="msg_pd_search">Searching...Please Wait!</string>
+    <string name="lbl_ok">OK</string>
+    <string name="title_cuslocation">End location</string>
+</resources>
